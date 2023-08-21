@@ -221,7 +221,7 @@ nav ul {
 nav ul li {
 	margin: 25px 0px;
 }
-nav a, nav a:visited, nav a:active {
+nav a, nav a:visited, a.active {
   color: #fff;
 }
 nav a {
@@ -235,8 +235,8 @@ nav a {
   	z-index: 0;
 }
 nav a.active {
-  background-color: #03ac03;
-  color: #fff;
+  background-color: #0ab12e;
+  color: #232323;
 }
 nav a::before {
   content: "";
